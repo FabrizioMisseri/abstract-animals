@@ -9,6 +9,9 @@ public class Zoo {
         losPollosHermanos.noise();
         losPollosHermanos.eat();
         losPollosHermanos.fly();
+        if (losPollosHermanos instanceof CanFly){
+            fly(losPollosHermanos);
+        }
 
         Dolphin flipper = new Dolphin();
 
@@ -16,6 +19,9 @@ public class Zoo {
         flipper.noise();
         flipper.eat();
         flipper.swim();
+        if (flipper instanceof CanSwim){
+            swim(flipper);
+        }
 
     }
 
