@@ -1,6 +1,6 @@
 package learning.java.animals;
 
-public class Chicken extends Animal{
+public class Chicken extends Animal implements canFly{
     @Override
     public void eat() {
         System.out.println(super.eatString + "la robaccia per terra");
@@ -10,5 +10,10 @@ public class Chicken extends Animal{
     @Override
     public void noise() {
         System.out.println("RRROOOaAAARR!!!!");
+    }
+
+    @Override
+    public void fly() {
+        System.out.println("provo a volare ma nn sò se mi riesce...");
     }
 }
