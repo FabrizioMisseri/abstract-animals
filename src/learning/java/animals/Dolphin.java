@@ -1,6 +1,6 @@
 package learning.java.animals;
 
-public class Dolphin extends Animal implements canSwim{
+public class Dolphin extends Animal implements CanSwim {
     @Override
     public void eat() {
         System.out.println(super.eatString + "le caramelle dufur");

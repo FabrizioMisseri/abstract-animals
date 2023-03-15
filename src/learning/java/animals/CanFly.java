@@ -1,6 +1,6 @@
 package learning.java.animals;
 
-public interface canFly {
+public interface CanFly {
     void fly();
 
 }
